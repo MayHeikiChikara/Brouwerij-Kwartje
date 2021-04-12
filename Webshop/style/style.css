@@ -1,0 +1,606 @@
+/*font*/
+@font-face{
+  font-family: 'nexalight';
+  src: url('../font/nexa/nexalight.otf');}
+
+@font-face{
+  font-family: 'nexabold';
+  src: url('../font/nexa/nexabold.otf');
+  font-weight: bold;}
+
+/*html*/
+*{
+	margin: 0;
+  border: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
+h1{
+  font-family: "nexabold", "Tahoma";
+  font-size: 100px;
+  font-weight: bold;}
+
+h2{
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;}
+
+h3{
+  font-family: "nexabold", "Tahoma";
+  font-size: 30px;
+  font-weight: bold;}
+
+/*header*/
+header{
+  width: 100%;
+  height: 120px;
+  background: #51264E;
+  position: fixed;
+  z-index: 1;}
+
+header img{
+  width: 100px;
+  height: 100px;
+	margin: 10px 0 10px 140px;
+  float: left;}
+
+/*---navigation---*/
+header ul{
+  margin: 35px 140px 35px 0px;
+	float: right;}
+
+header li{
+  width: 150px;
+  height: 50px;
+	margin: 0 0 0 40px;
+  border-radius: 50px;
+	padding: 15px 0;
+  display: inline-block;
+  background: #ffffff;
+  text-align: center;}
+
+header li:hover{
+  background: #27375C;}
+
+header li:active{
+  background: #27375C;}
+
+#headerli{
+  background: #27375C;}
+
+header li a{
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 25px;
+  font-weight: bold;
+	color: #000000;}
+
+header li a:hover{
+	color: #000000;}
+
+header li a:active{
+  color: #ffffff;}
+
+#headera{
+  color: #ffffff;}
+
+/* body */
+#welcomebody, #goodbyebody, #indexbody, #beerbody, #aboutbody, #loginbody, #contractbody, #requestbody{
+  min-height: 100vh;
+  position: relative;}
+
+/*welcome*/
+#welcomebody{
+  background-image: url('../image/background1.png');
+  background-size: cover;}
+
+#welcomemain img{
+  width: 193px;
+  height: 161px;
+  margin: 80px auto 0;
+  display: block;}
+
+#welcomemain h1{
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  text-align: center;
+  color: #ffffff;}
+
+#welcomesection{
+  width: 1120px;
+  margin: 500px auto 0;
+  display: flex;
+  justify-content: space-between;}
+
+.welcomediv{
+  width: 240px;
+  height: 100px;
+  margin: 0 160px;
+  border-radius: 50px;
+  padding: 25px 0;
+  display: inline-block;
+  background: #ffffff;
+  text-align: center;}
+
+.welcomediv a{
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;}
+
+/*goodbye*/
+#goodbyebody{
+  background-image: url('../image/background2.png');
+  background-size: cover;}
+
+#goodbyemain{
+  width: 860px;
+  height: 433px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;}
+
+#goodbyelogo{
+  width: 380px;
+  height: 380px;
+  margin: 0 20px;
+  float: left;}
+
+.goodbyehealth{
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  float: right;}
+
+#goodbyemain h2{
+  margin: 95px 55px;
+  float: right;}
+
+#goodbyediv{
+  width: 800px;
+  height: 90px;
+  margin: -37px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: center;}
+
+#goodbyediv a{
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 100px;
+  font-weight: bold;
+  color: #000000;}
+
+/*index*/
+#indexbody{
+  background-image: url('../image/background3.png');
+  background-size: cover;}
+
+#indexmain h1{
+  padding-top: 200px;
+  text-align: center;
+  color: #ffffff;}
+
+#indexsection{
+  padding: 156px 140px 40px 140px;
+  display: flex;
+  justify-content: space-between;}
+
+#indexsection img{
+  width: 520px;
+  height: 380px;}
+
+/*beer*/
+#beerbanner{
+  width: 100%;
+  height: 370px;
+  background-image: url('../image/background3.png');}
+
+#beerbanner h1{
+  padding: 200px 0 0;
+  text-align: center;
+  color: #ffffff;}
+
+/*---search---*/
+#beerform input{
+  width: 520px;
+  height: 100px;
+  margin: 40px 0 80px 140px;
+	padding: 20px 40px;
+  float: left;
+  background-image: url('../image/magnifying.png');
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;}
+
+/*---dropdown---*/
+#beerspecific{
+  width: 760px;
+  margin: 0 120px 0 0;
+  float: right;
+  display: flex;
+  justify-content: flex-end;}
+
+.beerbutton{
+  overflow: hidden;}
+
+.beerdropdown{
+  overflow: hidden;}
+
+.beerdropdown button{
+  width: 240px;
+  height: 100px;
+  margin: 40px 20px 0 0;
+  border-radius: 50px;
+  padding: 30px 0;
+  background: #000000;
+  text-align: center;
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;}
+
+.beerdropdown button:hover{
+  border-radius: 50px 50px 0 0;}
+
+.beerdropdown ul{
+  width: 240px;
+  height: 330px;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  background: #000000;}
+
+.beerdropdown:hover ul{
+  display: block;}
+
+.beerlabel{
+  margin: 10px 0 0;
+  text-align: center;}
+
+.beerlabel label{
+  font-family: "nexabold", "Tahoma";
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;}
+
+.beerdropdown li{
+  padding: 10px 0 0 20px;}
+
+.beerdropdown a{
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;}
+
+.beerdropdown img{
+  width: 25px;
+  height: 25px;
+  margin: 0 10px -6px 0}
+
+/*---collection---*/
+.beerdiv{
+  height: 520px;
+  margin: 0 140px;
+  clear: both;}
+
+.beerbottle{
+  width: 375px;
+  height: 520px;
+  margin: 0 40px 40px 0;
+  float: left;}
+
+.beerstory{
+  padding: 20px 0;
+  font-family: "nexalight", "Tahoma";
+  font-size: 20px;
+  font-weight: normal;}
+
+.beerinformation{
+  margin-bottom: 58px;
+  font-family: "nexalight", "Tahoma";
+  font-size: 15px;
+  font-weight: normal;}
+
+.beertaste{
+  width: 200px;
+  height: 200px;}
+
+/* beererror*/
+#beererror{
+padding: 85px 0 0 730px;
+position: absolute;}
+
+#beererror p{
+  font-family: "nexabold", "Tahoma";
+  font-size: 15px;
+  font-weight: bold;
+  color: #9C0000;}
+
+/*about*/
+#aboutbanner{
+  width: 100%;
+  height: 370px;
+  background-image: url('../image/background3.png');}
+
+#aboutbanner h1{
+  padding: 200px 0 0;
+  text-align: center;
+  color: #ffffff;}
+
+/*---brewer---*/
+#aboutbrewersection h2{
+  padding: 80px 0 0;
+  text-align: center;}
+
+.aboutbrewerdiv{
+  margin: 20px 140px;
+  display: flex;
+  justify-content: space-between;}
+
+.aboutbrewerdiv img{
+  width: 520px;
+  height: 520px;}
+
+.aboutbrewerdiv h3{
+  width: 520px}
+
+.aboutbrewerdiv p{
+  width: 520px;
+  font-family: "nexalight", "Tahoma";
+  font-size: 20px;
+  font-weight: normal;}
+
+/*---brewery---*/
+#aboutbrewerysection h2{
+  padding: 60px 0 0;
+  text-align: center;}
+
+.aboutbrewerydiv{
+  height: 400px;
+  margin: 20px 140px 40px;
+  clear: both;}
+
+.aboutbreweryrightdiv img{
+  width: 780px;
+  height: 400px;
+  float: right;}
+
+.aboutbreweryleftdiv img{
+  width: 780px;
+  height: 400px;
+  float: left;}
+
+.aboutbreweryrightdiv h3{
+  width: 820px;
+  float: right;}
+
+.aboutbreweryleftdiv h3{
+  width: 820px;
+  float: left;}
+
+.aboutbreweryrightdiv p{
+  width: 820px;
+  margin: 20px 0;
+  float: right;
+  font-family: "nexalight", "Tahoma";
+  font-size: 20px;
+  font-weight: normal;}
+
+.aboutbreweryleftdiv p{
+  width: 820px;
+  margin: 20px 0;
+  float: left;
+  font-family: "nexalight", "Tahoma";
+  font-size: 20px;
+  font-weight: normal;}
+
+/*login*/
+#loginbody{
+  background-image: url('../image/background3.png');
+  background-size: cover;}
+
+#loginmain h1{
+  padding: 200px 0 0;
+  text-align: center;
+  color: #ffffff;}
+
+/*---login---*/
+#loginform{
+  width: 800px;
+  margin: 80px auto 370px;}
+
+#loginform  label{
+  font-family: "nexabold", "Tahoma";
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;}
+
+#loginform input{
+  width: 800px;
+  height: 50px;
+  margin: 5px 0 40px;
+  padding: 0 20px;
+  background: #ffffff;
+  font-family: "nexabold", "Tahoma";
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;}
+
+#loginform button{
+  width: 240px;
+  height: 100px;
+  border-radius: 50px;
+  float: right;
+  padding: 25px 0;
+  display: inline-block;
+  background: #FDD00E;
+  text-align: center;
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;}
+
+/* loginerror */
+#loginerrorusername{
+  padding: 8px 0 0 1100px;
+  position: absolute;}
+
+#loginerrorpassword{
+  padding: 133px 0 0 1100px;
+  position: absolute;}
+
+.loginerror p{
+  font-family: "nexabold", "Tahoma";
+  font-size: 15px;
+  font-weight: bold;
+  color: #9C0000;}
+
+/*contract*/
+#contractbanner{
+  width: 100%;
+  height: 370px;
+  background-image: url('../image/background3.png');}
+
+#contractbanner h1{
+  padding: 200px 0 0;
+  text-align: center;
+  color: #ffffff;}
+
+#contractmain img{
+  width: 100%;
+  height: 570px;}
+
+/*---contract---*/
+#contractform{
+  width: 840px;
+  margin: 80px auto;}
+
+#contractform label{
+  margin: 0 20px;
+  font-family: "nexabold", "Tahoma";
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;}
+
+#contractform input{
+  height: 50px;
+  margin: 5px 20px 40px;
+  border: 1px solid #000000;
+  padding: 0 20px;
+  font-family: "nexabold", "Tahoma";
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;}
+
+#contractform #firstname, #lastname{
+  width: 307px;}
+
+#contractform #prefix, #housenumber, #zipcode{
+  width: 97px;}
+
+#contractform #street, #city{
+  width: 657px;}
+
+#contractform #business, #country, #email, #date{
+  width: 800px;}
+
+#contractdiv{
+  height: 100px;
+  margin: 0 20px 40px 0;
+  float: right;}
+
+#contractdiv label{
+  bottom: 6px;
+  position: relative;
+  font-family: "nexalight", "Tahoma";
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;}
+
+#contractdiv input{
+  height: 42px;
+  margin: auto 10px -5px -10px;
+  appearance: none;}
+
+#contractdiv input:checked{
+  background: #FDD00E;}
+
+#contractdiv button{
+  width: 240px;
+  height: 100px;
+  border-radius: 50px;
+  padding: 25px 0;
+  display: inline-block;
+  background: #FDD00E;
+  text-align: center;
+  text-decoration: none;
+  font-family: "nexabold", "Tahoma";
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;}
+
+#contractdiv button:hover{
+  border: 1px solid #000000;}
+
+#contractdiv button:active{
+  border: 1px solid #000000;}
+
+/*request*/
+#requestbody{
+  background-image: url('../image/background3.png');
+  background-size: cover;}
+
+#requestmain h2{
+  padding: 200px 0 146px;
+  text-align: center;
+  color: #ffffff;}
+
+#requestsection img{
+  width: 100%;
+  height: 550px;}
+
+/*footer*/
+footer{
+  width: 100%;
+  height: 60px;
+  clear: both;
+  background: #000000;}
+
+.footerdiv{
+  width: 33%;
+  height: 55px;
+  display: inline-block;}
+
+.footersocialmedia{
+  width: 50px;
+  height: 50px;
+  margin: 0 40px;
+  left: 100px;
+  position: relative;}
+
+#footerlogo{
+  width: 50px;
+  height: 50px;
+  margin: 5px auto;
+  display: block;}
+
+footer p{
+  margin: 21px 140px 21px 0;
+  float: right;
+  font-family: "nexalight", "Tahoma";
+  font-size: 15px;
+  font-weight: normal;}
+
+footer p a{
+  text-decoration: none;
+  color: #9C0000;}

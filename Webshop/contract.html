@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="description" content="brouwerij kwartje">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" type="image/svg" href="image/icon.svg" alt="icon"/>
+		<title>Brouwerij Kwartje</title>
+  </head>
+
+  <body id="contractbody">
+    <header>
+      <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+      <nav>
+        <!--***navigation***-->
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="beer.html">BEER</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+          <li id="headerli"><a id="headera" href="contract.html">CONTRACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contractmain">
+      <div id="contractbanner">
+        <h1>CONTRACT</h1>
+      </div>
+      <img src="image/contract.png" alt="contract">
+      <section>
+        <!--***contract***-->
+        <form action="request.html" id="contractform">
+          <label for="firstname" for="prefix" for="lastname">NAME</label><br>
+          <input type="text" id="firstname" name="firstname" required>
+          <input type="text" id="prefix" name="prefix">
+          <input type="text" id="lastname" name="lastname" required><br>
+          <label for="business">BUSINESS</label><br>
+          <input type="text" id="business" name="business" required><br>
+          <label for="street" for="housenumber">ADDRESS</label><br>
+          <input type="text" id="street" name="street" required>
+          <input type="text" id="housenumber" name="housenumber" required><br>
+          <label for="zipcode" for="city">CITY</label><br>
+          <input type="text" id="zipcode" name="zipcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" required>
+          <input type="text" id="city" name="city" required><br>
+          <label for="country">COUNTRY</label><br>
+          <input type="text" id="country" name="country" required><br>
+          <label for="email">EMAIL</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="date">DATE</label><br>
+          <input type="datetime-local" id="date" name="date" required><br>
+          <div id="contractdiv">
+            <label for="agree">AGREE TO THE TERMS</label>
+            <input type="checkbox" id="agree" name="agree" required>
+            <button type="submit" form="contractform" value="submit">SUBMIT</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footerdiv">
+        <a href="https://twitter.com/kwartjebier?lang=en" target="_blank"><img class="footersocialmedia" src="image/twitter.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/brouwerijkwartje/?hl=en" target="_blank"><img class="footersocialmedia" src="image/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/BrouwerijKwartje/?rf=286710895572079" target="_blank"><img class="footersocialmedia" src="image/facebook.png" alt="facebook"></a>
+      </div>
+      <div class="footerdiv">
+        <a href="index.html"><img id="footerlogo" src="image/logo.svg" alt="logo"></a>
+      </div>
+      <div class="footerdiv">
+        <p><a href="mailto:brouwerijkwartje@info.com">You are always free to
+            send us an e-mail</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
