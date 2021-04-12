@@ -10,10 +10,10 @@
 
 /*html*/
 *{
-	margin: 0;
+  margin: 0;
   border: 0;
-	padding: 0;
-	box-sizing: border-box;}
+  padding: 0;
+  box-sizing: border-box;}
 
 h1{
   font-family: "nexabold", "Tahoma";
@@ -41,20 +41,20 @@ header{
 header img{
   width: 100px;
   height: 100px;
-	margin: 10px 0 10px 140px;
+  margin: 10px 0 10px 140px;
   float: left;}
 
 /*---navigation---*/
 header ul{
   margin: 35px 140px 35px 0px;
-	float: right;}
+  float: right;}
 
 header li{
   width: 150px;
   height: 50px;
-	margin: 0 0 0 40px;
+  margin: 0 0 0 40px;
   border-radius: 50px;
-	padding: 15px 0;
+  padding: 15px 0;
   display: inline-block;
   background: #ffffff;
   text-align: center;}
@@ -73,10 +73,10 @@ header li a{
   font-family: "nexabold", "Tahoma";
   font-size: 25px;
   font-weight: bold;
-	color: #000000;}
+  color: #000000;}
 
 header li a:hover{
-	color: #000000;}
+  color: #000000;}
 
 header li a:active{
   color: #ffffff;}
@@ -211,7 +211,7 @@ header li a:active{
   width: 520px;
   height: 100px;
   margin: 40px 0 80px 140px;
-	padding: 20px 40px;
+  padding: 20px 40px;
   float: left;
   background-image: url('../image/magnifying.png');
   font-family: "nexabold", "Tahoma";
@@ -316,8 +316,8 @@ header li a:active{
 
 /* beererror*/
 #beererror{
-padding: 85px 0 0 730px;
-position: absolute;}
+  padding: 85px 0 0 730px;
+  position: absolute;}
 
 #beererror p{
   font-family: "nexabold", "Tahoma";
