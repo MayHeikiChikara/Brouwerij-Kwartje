@@ -1,5 +1,5 @@
 # brouwerijkwartjewebsite
-<a href="https://brouwerijkwartjewebsitemayheikichikara.netlify.app/welcome.html" target="_blank"></a>
+https://brouwerijkwartjewebsitemayheikichikara.netlify.app/welcome.html
 
 
 The Hague University of Applied Sciences<br>
