@@ -1,5 +1,5 @@
-# brouwerijkwartjewebsite
-https://brouwerijkwartjewebsitemayheikichikara.netlify.app/welcome.html
+# brouwerijkwartje
+https://brouwerijkwartjemayheikichikara.netlify.app/welcome.html
 
 The Hague University of Applied Sciences<br>
 Communication & Multimedia Design<br>
